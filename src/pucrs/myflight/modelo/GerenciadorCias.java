@@ -13,8 +13,7 @@ public class GerenciadorCias {
 		empresas.add(cia);
 	}
 	public CiaAerea buscaPorCodigo (String cod) {
-		for (int i=0;i<empresas.size();i++) {
-			CiaAerea a = empresas.get(i);
+		for (CiaAerea a : empresas) {
 			if (a.getCodigo().equals(cod))
 				return a;
 		}
