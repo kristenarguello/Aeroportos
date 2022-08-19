@@ -12,6 +12,10 @@ public class GerenciadorCias {
 	public void adicionar(CiaAerea cia) {
 		empresas.add(cia);
 	}
+	//
+	//é importante usar for each sempre que possivel
+	//se acostume a usar!!
+	//
 	public CiaAerea buscaPorCodigo (String cod) {
 		for (CiaAerea a : empresas) {
 			if (a.getCodigo().equals(cod))
