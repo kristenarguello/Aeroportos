@@ -2,6 +2,7 @@ package pucrs.myflight.modelo;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
+import java.time.Month;
 
 public class Voo {
 	
@@ -17,6 +18,12 @@ public class Voo {
 		this.datahora = datahora;
 		this.duracao = duracao;
 		this.status = Status.CONFIRMADO; // default é confirmado
+	}
+	public Voo(Rota rota,Duration duracao) {
+		this.rota = rota;
+		this.duracao = duracao;
+		this.datahora = LocalDateTime.of(2016, Month.AUGUST, 12, 12,00); //default
+		this.status = Status.CONFIRMADO; //default
 	}
 	
 	public Rota getRota() {
