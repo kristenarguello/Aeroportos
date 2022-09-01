@@ -20,6 +20,7 @@ public class App {
 		Voo voo_teste1 = new Voo(rota1, Duration.ofHours(4));
 		Voo voo_teste2 = new Voo(rota1, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
 
+		//testando os commits
 		
 		
 		
