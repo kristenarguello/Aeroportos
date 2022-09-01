@@ -9,5 +9,5 @@ public class VooVariasEscalas extends VooEscalas{
         super(rota, rotaFinal, datahora, duracao);
     
     }
-    
+    //falta terminar o ultimo exercicio
 }
