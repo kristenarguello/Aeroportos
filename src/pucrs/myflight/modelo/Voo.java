@@ -45,4 +45,6 @@ public class Voo {
 	public void setStatus(Status novo) {
 		this.status = novo;
 	}
+
+	
 }
