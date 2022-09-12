@@ -17,8 +17,8 @@ public class App {
 		CiaAerea cia1 = new CiaAerea("123","Gol");
 		Aeroporto aeroporto_ori1 = new Aeroporto("456", "Salgado Filho", local_poa);
 		Aeroporto aeroporto_che1 = new Aeroporto("789","Guarulhos",local_sp);
-		Aeronave aeronave1 = new Aeronave("7979", "internacional");
-		Aeronave aeronave2 = new Aeronave("7979", "nacional");
+		Aeronave aeronave1 = new Aeronave("7979", "internacional",200);
+		Aeronave aeronave2 = new Aeronave("7979", "nacional",100);
 		Rota rota1 = new Rota(cia1, aeroporto_ori1, aeroporto_che1, aeronave1);
 		
 		Voo voo_teste1 = new Voo(rota1, Duration.ofHours(4));
