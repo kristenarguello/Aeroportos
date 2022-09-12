@@ -34,7 +34,5 @@ public class GerenciadorCias {
 				return c;
 		} return null;
 		}
-
-		////oi tudo bem teste do commit
 }
 
