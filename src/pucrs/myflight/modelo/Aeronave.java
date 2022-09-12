@@ -1,11 +1,4 @@
 package pucrs.myflight.modelo;
-
-interface Contavel {
-		void contou();
-}
-interface Imprimivel {
-	void imprimir();
-}
 public class Aeronave implements Imprimivel, Contavel, Comparable<Aeronave>{
 	private String codigo;
 	private String descricao;
