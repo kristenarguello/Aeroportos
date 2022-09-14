@@ -20,13 +20,19 @@ public void listarTodas() {
 }
 
 public Rota buscarPorOrigem(Aeroporto origem) {
+    for(Rota r : rotas) {
+        if(r.getOrigem().equals(origem))
+            return r;
+    }
     return null;
-
 }
 
  public Rota buscarPorDestino(Aeroporto destino) {
+    for(Rota r : rotas) {
+        if(r.getDestino().equals(destino))
+            return r;
+    }
     return null;
-
 }
  
  public void ordenaRotas() {
