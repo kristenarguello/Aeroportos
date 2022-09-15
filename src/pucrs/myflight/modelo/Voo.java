@@ -46,5 +46,9 @@ public class Voo {
 		this.status = novo;
 	}
 
+	public String toString() {
+		return getStatus() + " " + getDatahora() + "("+getDuracao()+"): " + getRota();
+	}
+
 	
 }

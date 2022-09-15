@@ -7,7 +7,7 @@ public class VooEscalas extends Voo {
     private Rota rotaFinal;
 
     public VooEscalas(Rota rota, Rota rotaFinal, LocalDateTime datahora, Duration duracao) {
-        super(rota, datahora, duracao); //chama o contrutor do Voo
+        super(rota, datahora, duracao); //chama o construtor do Voo
         this.rotaFinal = rotaFinal;
     }
 

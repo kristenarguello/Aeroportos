@@ -32,4 +32,8 @@ public class Rota implements Comparable<Rota> {
 	public int compareTo(Rota outra) {
 		return cia.compareTo(outra.cia);
 	}
+
+	public String toString() {
+		return cia + ":" + origem + "-" + destino;
+	}
 }
