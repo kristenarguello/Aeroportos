@@ -23,6 +23,6 @@ public class CiaAerea {
 	}
 
     public int compareTo(CiaAerea cia) {
-        return 0;
+        return nome.compareTo(cia.nome);
     }
 }
