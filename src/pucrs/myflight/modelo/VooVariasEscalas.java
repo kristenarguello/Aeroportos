@@ -6,23 +6,22 @@ import java.util.ArrayList;
 
 public class VooVariasEscalas extends VooEscalas{
 
-    private int n_escalas;
     private ArrayList<Rota> rotasfinais;
 
-    public VooVariasEscalas(Rota rota, Rota rotaFinal, LocalDateTime datahora, Duration duracao, int n_escalas) {
+    public VooVariasEscalas(Rota rota, Rota rotaFinal, LocalDateTime datahora, Duration duracao) {
         super(rota, rotaFinal, datahora, duracao);
-        this.n_escalas = n_escalas;
-        for (int i=0;i<n_escalas;i++) {
-            
-        }
+    }
+
+    public void addRotasFinais(Rota rotafinal) {
+        rotasfinais.add(rotafinal);
     }
 
     public String toString() {
-        super.toString();
-        for (int i=0;i<n_escalas;i++) {
-            System.out.print("-> " + "");
+        String tostring="";
+        tostring += super.toString();
+        for (Rota r : rotasfinais) {
+            tostring += "-> " + r;
         }
-        return "";
+        return tostring;
     }
-    
 }
