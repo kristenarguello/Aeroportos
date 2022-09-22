@@ -41,5 +41,8 @@ public class Geo {
 		return a;
 	}
 
+	public String toString() {
+		return latitude + "/" + longitude;
+	}
 	
 }

@@ -32,10 +32,15 @@ public class Aeronave implements Imprimivel, Contavel, Comparable<Aeronave>{
 		System.out.println("Aeronaves existentes: " + getContador());
 	}
 	public void imprimir() {
-		System.out.println(codigo + " - " + descricao);
+		System.out.println(codigo + " - " + descricao + " - capacidade: "+ capacidade);
 	}
 	public int compareTo(Aeronave outra) {
 		return descricao.compareTo(outra.descricao);
 	}
+
+	public String toString() {
+		return codigo + " - " + descricao + " - capacidade: "+ capacidade;
+	}
+	
 
 }

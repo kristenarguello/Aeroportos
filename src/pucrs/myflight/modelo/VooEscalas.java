@@ -25,7 +25,7 @@ public class VooEscalas extends Voo {
 
     @Override
     public String toString() {
-        return super.toString() + " -> " + rotaFinal;
+        return super.toString() + " \n -> \n" + getStatus() + " " + getDatahora() + "("+getDuracao()+"): "+ rotaFinal;
     }
 
 

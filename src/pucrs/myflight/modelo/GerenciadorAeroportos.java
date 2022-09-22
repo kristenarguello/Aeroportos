@@ -21,7 +21,7 @@ public class GerenciadorAeroportos {
             System.out.print(a.getLocal().getLatitude() + "/");
             System.out.println(a.getLocal().getLongitude());
         }
-     }
+    }
 
      public Aeroporto buscaPorCodigo(String codigo) {
         for (Aeroporto a : aeroportos) {
@@ -29,7 +29,7 @@ public class GerenciadorAeroportos {
 				return a;
 		}
 		return null;
-     }
+    }
 
     public void ordenaAeroporto() {
         Collections.sort(aeroportos);
