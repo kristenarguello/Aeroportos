@@ -2,8 +2,9 @@ package pucrs.myflight.modelo;
 import java.util.ArrayList;
 import java.util.Collections;
 /** *
- * 
- * Maior parte do código 
+ * Uma parte do código já existia na base para o exercício, fomos adicionando conforme os exercícios
+ * e seguiamos as instruções de cada pdf. Aqui temos a classe gerenciador de rotas, com uma lista de rotas.
+ * Possui os métodos de adicionar, listar todas, buscar por origem, buscar por destino e ordena rotas.
  * 
  * @author Carol e Kristen
  * @version 1, 12 e 27 setembro
