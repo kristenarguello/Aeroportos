@@ -93,6 +93,30 @@ public class App {
 			//tratamento normal
 		//}
 
+		//27-09-2022 Carol e Kristen
+		Voo voodireto = new VooDireto(rota3, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00));
+		VooDireto direto = new VooDireto(rota4, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00));
+		VooEscalas escalas = new VooEscalas(LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00));
+		Voo vooescalas = new VooEscalas(LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00));
+
+		System.out.println("DURAÇÃO ROTA 3: ");
+		System.out.println(voodireto.getDuracao());
+		System.out.println("VOO DIRETO COM ROTA 3");
+		System.out.println(voodireto);
+		
+		//nao é metodo abstrato, entao precisa ser o criado direto da classe que tem o metodo desejado
+		escalas.adicionaRota(rota1);
+		escalas.adicionaRota(rota4);
+
+		System.out.println("\nDURACAO TOTAL ESCALAS ROTA 1 e 4: ");
+		System.out.println(escalas.getDuracao());
+		System.out.println("VOO COM ESCALAS PRINTADO");
+		System.out.println(escalas);
+
+
+
+
+
 		
 
 
