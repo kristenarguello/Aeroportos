@@ -1,16 +1,19 @@
+/** *
+ * 
+ * A classe voo direto corresponde a classe proposta no exercício de polimorfismo e classes abstratas.
+ * A classe é derivada de voo, com a duração e rota.
+ *
+ * @author Carol e Kristen
+ * @version 22 e 27 setembro
+ * 
+*/
+
 package pucrs.myflight.modelo;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
 
-/** *
- * 
- * Maior parte do código 
- * 
- * @author Carol e Kristen
- * @version 22 e 27 setembro
- * 
-*/
+
 public class VooDireto extends Voo{
 	
 	public enum Status { CONFIRMADO, ATRASADO, CANCELADO };
