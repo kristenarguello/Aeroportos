@@ -4,7 +4,7 @@ package pucrs.myflight.modelo;
  * Maior parte do código 
  * 
  * @author Carol e Kristen
- * @version 19 agosto, e primeiras semanas de setembro
+ * @version 19 agosto, 1 e 15 setembro
  * 
 */
 public class Rota implements Comparable<Rota> {

@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Maior parte do código 
  * 
  * @author Carol e Kristen
- * @version 19 agosto, e primeiras semanas de setembro
+ * @version 1, 12 e 27 setembro
  * 
 */
 public class GerenciadorCias {

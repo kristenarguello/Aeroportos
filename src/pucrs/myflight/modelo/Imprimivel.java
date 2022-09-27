@@ -1,11 +1,10 @@
 package pucrs.myflight.modelo;
 /** *
- * 
- * Maior parte do código 
+ *
+ *  Interface de imprimivel, que contém o metodo imprimir()
  * 
  * @author Carol e Kristen
- * @version 19 agosto, e primeiras semanas de setembro
- * 
+ * @version 12 setembro
 */
 interface Imprimivel {
 	void imprimir();

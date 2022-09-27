@@ -1,11 +1,10 @@
 package pucrs.myflight.modelo;
 /** *
  * 
- * Maior parte do código 
+ *  Interface de contavel, que contém o metodo contou()
  * 
  * @author Carol e Kristen
- * @version 19 agosto, e primeiras semanas de setembro
- * 
+ * @version 12 setembro
 */
 interface Contavel {
     void contou();

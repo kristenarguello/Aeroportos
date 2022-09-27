@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
  * Maior parte do código 
  * 
  * @author Carol e Kristen
- * @version 19 agosto, e primeiras semanas de setembro
+ * @version 22 e 27 setembro
  * 
 */
 public class VooDireto extends Voo{

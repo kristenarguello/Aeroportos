@@ -1,10 +1,10 @@
 package pucrs.myflight.modelo;
 /** *
  * 
- * Maior parte do código 
+ * 
  * 
  * @author Carol e Kristen
- * @version 19 agosto, e primeiras semanas de setembro
+ * @version 19 agosto, 1 setembro, 22 setembro
  * 
 */
 public class CiaAerea implements Comparable<CiaAerea>{
