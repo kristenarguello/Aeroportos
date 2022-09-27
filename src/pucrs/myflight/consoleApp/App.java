@@ -23,8 +23,8 @@ public class App {
 		Rota rota1 = new Rota(cia1, aeroporto_ori1, aeroporto_che1, aeronave1);
 		Rota rota2 = new Rota(cia2,aeroporto_ori1, aeroporto_che1, aeronave1);
 		
-		Voo voo_teste1 = new Voo(rota1, Duration.ofHours(4));
-		Voo voo_teste2 = new Voo(rota1, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
+		//Voo voo_teste1 = new Voo(rota1, Duration.ofHours(4));
+		//Voo voo_teste2 = new Voo(rota1, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
 		//funcionou - teste no debuger, nao ficou null
 
 		
@@ -64,33 +64,34 @@ public class App {
 		gerenciadorRotas.listarTodas();
 
 		//teste - ex5
-		VooEscalas vooUmaEscala = new VooEscalas(rota1, rota2, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
-		VooVariasEscalas vooVarias = new VooVariasEscalas(rota1, rota2, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
+		//VooEscalas vooUmaEscala = new VooEscalas(rota1, rota2, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
+		//VooVariasEscalas vooVarias = new VooVariasEscalas(rota1, rota2, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
 
 		Rota rota3 = new Rota(cia1, aeroporto_ori1, aeroporto_che1, aeronave1);
 		Rota rota4 = new Rota(cia2, aeroporto_che1, aeroporto_ori1, aeronave2);
 		
-		vooVarias.addEscalas(rota3);
-		vooVarias.addEscalas(rota4);
-		vooVarias.addEscalas(rota3);
-
+		//vooVarias.addEscalas(rota3);
+		//vooVarias.addEscalas(rota4);
+		//vooVarias.addEscalas(rota3);
+        /* 
 		System.out.println("UMA ESCALA");
 		System.out.println(vooUmaEscala);
 		System.out.println("\nVARIAS ESCALAS");
 		System.out.println(vooVarias);
+         */
 
 		//polimorfismo
-		Voo vooteste = new Voo(rota1, Duration.ofHours(4));
-		vooteste = new VooEscalas(rota1, rota2, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
-		vooteste = new VooVariasEscalas(rota1, rota1, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
+		//Voo vooteste = new Voo(rota1, Duration.ofHours(4));
+		//vooteste = new VooEscalas(rota1, rota2, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
+		//vooteste = new VooVariasEscalas(rota1, rota1, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
 
 
-		Voo voo1 = new VooEscalas(rota1, rota2, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
-		if (voo1 instanceof VooEscalas) {
+		//Voo voo1 = new VooEscalas(rota1, rota2, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
+		//if (voo1 instanceof VooEscalas) {
 			//faz algo que seja um voo com duas escalas
-		} else {
+		//} else {
 			//tratamento normal
-		}
+		//}
 
 		
 
@@ -100,4 +101,3 @@ public class App {
 
 	}
 } 
- 
