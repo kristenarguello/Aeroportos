@@ -1,7 +1,14 @@
 package pucrs.myflight.modelo;
 
 import java.util.ArrayList;
-
+/** *
+ * 
+ * Maior parte do código 
+ * 
+ * @author Carol e Kristen
+ * @version 19 agosto, e primeiras semanas de setembro
+ * 
+*/
 public class GerenciadorCias {
 	private ArrayList<CiaAerea> empresas;
 	

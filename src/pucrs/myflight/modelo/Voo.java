@@ -1,7 +1,14 @@
 package pucrs.myflight.modelo;
 import java.time.Duration;
 import java.time.LocalDateTime;
-
+/** *
+ * 
+ * Maior parte do código 
+ * 
+ * @author Carol e Kristen
+ * @version 19 agosto, e primeiras semanas de setembro
+ * 
+*/
 public abstract class Voo {
     public enum Status { CONFIRMADO, ATRASADO, CANCELADO };
 

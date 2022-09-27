@@ -1,5 +1,12 @@
 package pucrs.myflight.modelo;
-
+/** *
+ * 
+ * Maior parte do código 
+ * 
+ * @author Carol e Kristen
+ * @version 19 agosto, e primeiras semanas de setembro
+ * 
+*/
 import java.util.ArrayList;
 import java.util.Collections;
 public class GerenciadorAeronaves {

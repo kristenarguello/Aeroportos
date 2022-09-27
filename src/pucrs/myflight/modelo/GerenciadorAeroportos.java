@@ -1,7 +1,14 @@
 package pucrs.myflight.modelo;
 import java.util.ArrayList;
 import java.util.Collections;
-
+/** *
+ * 
+ * Maior parte do código 
+ * 
+ * @author Carol e Kristen
+ * @version 19 agosto, e primeiras semanas de setembro
+ * 
+*/
 public class GerenciadorAeroportos {
     private ArrayList<Aeroporto> aeroportos;
 

@@ -3,7 +3,14 @@ package pucrs.myflight.modelo;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-
+/** *
+ * 
+ * Maior parte do código 
+ * 
+ * @author Carol e Kristen
+ * @version 19 agosto, e primeiras semanas de setembro
+ * 
+*/
 public class VooEscalas extends Voo {
     private ArrayList<Rota> escalas;
 
