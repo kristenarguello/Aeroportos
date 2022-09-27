@@ -15,17 +15,16 @@ public class GerenciadorVoos {
 
     public void listarTodos() {
         System.out.println("Voos:");
+        int i = 1;
         for (Voo v : voos) {
-            System.out.print(v.getDatahora().toString() + " - ");
-            System.out.print(v.getDuracao().toString() + " - ");
-            System.out.print(v.getRota().toString() + " - ");
-            System.out.println(v.getStatus().toString());
+            System.out.println(i +") " + v);
+            i++;
         }
     }
 
     public Voo buscaPorData(LocalDateTime data) {
         for (Voo v : voos) {
-            if (v.getDatahora().equals(data)) {
+            if (v.getDataHora().equals(data)) {
                 return v;
             }
         } return null;
