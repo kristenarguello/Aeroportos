@@ -4,7 +4,7 @@ package pucrs.myflight.modelo;
  * 
  * 
  * @author Carol e Kristen
- * @version 19 agosto, 1 setembro, 22 setembro
+ * @version 19 agosto, 1 e 22 de setembro
  * 
 */
 public class Aeroporto implements Comparable<Aeroporto>{
