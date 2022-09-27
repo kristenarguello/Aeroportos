@@ -1,3 +1,4 @@
+/* 
 package pucrs.myflight.modelo;
 
 import java.time.Duration;
@@ -26,3 +27,4 @@ public class VooVariasEscalas extends VooEscalas{
         return tostring;
     }
 }
+*/
