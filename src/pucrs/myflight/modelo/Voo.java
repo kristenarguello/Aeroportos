@@ -1,14 +1,16 @@
-package pucrs.myflight.modelo;
-import java.time.Duration;
-import java.time.LocalDateTime;
 /** *
- * 
- * Maior parte do código 
+ * A classe voo corresponde a classe proposta no exercício de polimorfismo e classes abstratas.
+ * É uma classe abstrata com o estado e a data/hora do voo.
  * 
  * @author Carol e Kristen
  * @version 22 e 27 setembro
  * 
 */
+
+package pucrs.myflight.modelo;
+import java.time.Duration;
+import java.time.LocalDateTime;
+
 public abstract class Voo {
     public enum Status { CONFIRMADO, ATRASADO, CANCELADO };
 
