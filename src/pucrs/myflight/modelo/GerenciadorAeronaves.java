@@ -1,7 +1,8 @@
 package pucrs.myflight.modelo;
 /** *
- * 
- * 
+ * Uma parte do código já existia na base para o exercício, fomos adicionando conforme os exercícios
+ * e seguiamos as instruções de cada pdf. Aqui temos a classe gerenciador de aeronave, com uma lista de aeronaves.
+ * Possui os métodos de adicionar, listar todas, buscar por código e ordenar por descrição da aeronave.
  * 
  * @author Carol e Kristen
  * @version 1, 12 e 27 setembro
