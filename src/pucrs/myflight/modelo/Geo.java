@@ -1,7 +1,9 @@
 package pucrs.myflight.modelo;
 /** *
- * 
- * 
+ * Uma parte do código já existia na base para o exercício, fomos adicionando conforme os exercícios no pdf
+ * e seguiamos as instruções de cada pdf. Aqui temos a classe geolocalização, com latitude e longitude.
+ * Possui dois métodos diferentes para calcular a distância, uma recebe duas geos e calcula a distância entre elas
+ * e a outra recebe uma geo para calcular a distância com os dados armazanados. 
  * 
  * @author Carol e Kristen
  * @version 19 agosto, 1 e 22 de setembro
