@@ -1,7 +1,8 @@
 package pucrs.myflight.modelo;
 /** *
- * 
- * 
+ * Uma parte do código já existia na base para o exercício, fomos adicionando conforme os exercícios e seguiamos 
+ * as instruções de cada pdf. Aqui temos a classe do aeroporto, com codigo, nome e localização. 
+ * Possui interfaces de comparar a partir do nome do aeroporto. 
  * 
  * @author Carol e Kristen
  * @version 19 agosto, 1 e 22 de setembro
