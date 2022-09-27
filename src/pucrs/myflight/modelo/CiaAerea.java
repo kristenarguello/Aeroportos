@@ -1,7 +1,8 @@
 package pucrs.myflight.modelo;
 /** *
- * 
- * 
+ * Uma parte do código já existia na base para o exercício, fomos adicionando conforme os exercícios
+ * e seguiamos as instruções de cada pdf. Aqui temos a classe da companhia aerea, com codigo, nome, e o total
+ * cias criadas. Possui interface de comparar a partir do nome da cia aerea. 
  * 
  * @author Carol e Kristen
  * @version 19 agosto, 1, 13 e 22 de setembro
