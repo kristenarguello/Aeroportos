@@ -1,7 +1,8 @@
 package pucrs.myflight.modelo;
 /** *
- * 
- * Maior parte do código 
+ * Uma parte do código já existia na base para o exercício, fomos adicionando conforme os exercícios e seguiamos 
+ * as instruções de cada pdf. Aqui temos a classe da rota, com cia aerea, origem, destino e aeronave. 
+ * Possui os métodos getCia, getOrigem, getDestino, getAeronave e a interface de comparar a partir rota.
  * 
  * @author Carol e Kristen
  * @version 19 agosto, 1 e 15 setembro
