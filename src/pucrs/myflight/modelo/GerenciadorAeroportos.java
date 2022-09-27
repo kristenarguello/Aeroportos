@@ -15,11 +15,10 @@ public class GerenciadorAeroportos {
 
     public void listarTodos() {
         System.out.println("Aeroportos:");
+        int i =1;
         for (Aeroporto a : aeroportos) {
-            System.out.print(a.getCodigo() + " - ");
-            System.out.print(a.getNome() + " - ");
-            System.out.print(a.getLocal().getLatitude() + "/");
-            System.out.println(a.getLocal().getLongitude());
+            System.out.println(i + ") "+ a);
+          i++;
         }
     }
 
