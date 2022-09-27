@@ -1,16 +1,19 @@
+/** *
+ * 
+ * A classe voo escalas corresponde a classe proposta no exercício de polimorfismo e classes abstratas.
+ * A classe é derivada de voo, com uma lista de rotas (escalas) e o método para adicionar rota (escala).
+ *
+ * @author Carol e Kristen
+ * @version 1 e 27 setembro
+ * 
+*/
+
 package pucrs.myflight.modelo;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-/** *
- * 
- * Maior parte do código 
- * 
- * @author Carol e Kristen
- * @version 1 e 27 setembro
- * 
-*/
+
 public class VooEscalas extends Voo {
     private ArrayList<Rota> escalas;
 
