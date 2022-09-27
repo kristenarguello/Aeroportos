@@ -15,11 +15,10 @@ public void adicionar(Rota rota) {
 
 public void listarTodas() {
    System.out.println("Rotas:");
+   int i =1;
       for (Rota r : rotas) {
-        System.out.println(r.getCia()+" ----- ");
-        System.out.print(r.getOrigem()+" ----- ");
-        System.out.print(r.getDestino()+" ----- ");
-        System.out.println(r.getAeronave());
+        System.out.println(i +") " + r);
+        i++;
       }     
 }
 
