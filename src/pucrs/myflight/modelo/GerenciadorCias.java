@@ -2,8 +2,9 @@ package pucrs.myflight.modelo;
 
 import java.util.ArrayList;
 /** *
- * 
- * Maior parte do código 
+ * Uma parte do código já existia na base para o exercício, fomos adicionando conforme os exercícios
+ * e seguiamos as instruções de cada pdf. Aqui temos a classe gerenciador de cia aerea, com uma lista de cias aereas.
+ * Possui os métodos de adicionar, listar todas, buscar por código e buscar por nome. 
  * 
  * @author Carol e Kristen
  * @version 1, 12 e 27 setembro
