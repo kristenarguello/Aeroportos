@@ -15,8 +15,10 @@ public class GerenciadorCias {
 	
 	public void listarTodas() {
 		System.out.println("Companhias Áreas:");
+		int i = 1;
 		for (CiaAerea c : empresas) {
-			System.out.println(c.getCodigo() + " - " + c.getNome());
+			System.out.println(i + ") "+c);
+			i++;
 		}
 	}
 
@@ -35,4 +37,3 @@ public class GerenciadorCias {
 		} return null;
 		}
 }
-
