@@ -15,10 +15,10 @@ public class GerenciadorAeronaves {
 
    public void listarTodas() {
       System.out.println("Aeronaves:");
+      int i = 1;
       for (Aeronave a : aeronaves) {
-         System.out.print(a.getCodigo() + " - ");
-         System.out.print(a.getDescricao() + " - ");
-         System.out.println(a.getCapacidade());
+         System.out.println(i + ") " + a);
+         i++;
       }
    }
 
