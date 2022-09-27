@@ -2,30 +2,54 @@ package pucrs.myflight.modelo;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 
 public class VooEscalas extends Voo {
-    private Rota rotaFinal;
+    private ArrayList<Rota> escalas;
 
-    public VooEscalas(Rota rota, Rota rotaFinal, LocalDateTime datahora, Duration duracao) {
-        super(rota, datahora, duracao); //chama o construtor do Voo
-        this.rotaFinal = rotaFinal;
+    public VooEscalas( LocalDateTime datahora) {
+        super(datahora); //chama o construtor do Voo
+        escalas = new ArrayList<>();
     }
 
-    public Rota getRotaFinal() {
-        return rotaFinal;
+    public void adicionaRota (Rota rota) {
+        escalas.add(rota);
     }
-
-/*
-    @Override
-    public String toString() {
-        //return status + " " + datahora + "("+duracao+"): "+rota+ "-->" + rotaFinal;
-        return getStatus() + " " + getDataHora() + "("+getDuracao()+"): " + getRota() + " -> " +rotaFinal;
-    }
- */ 
 
     @Override
+    public Duration getDuracao() {
+        double total = 0;
+        for (Rota r : escalas) {
+            total += (805/Geo.distancia(r.getDestino().getLocal(), r.getOrigem().getLocal()))*60 + 30;
+        }
+        return Duration.ofMinutes((long)total);
+        //retorna a duracao total de todas as escalas
+    }
+
+    @Override
+    public Rota getRota() {
+        return escalas.get(0);
+    }
+
+    public ArrayList<Rota> getRotas() {
+        return escalas;
+    }
+
+
+    @Override
     public String toString() {
-        return super.toString() + " \n -> \n" + getStatus() + " " + getDatahora() + "("+getDuracao()+"): "+ rotaFinal;
+        String tostring= super.toString();
+        int i = 1;
+        for(Rota r: escalas) {
+            if(i < escalas.size()) {
+                tostring += "\nEscala " +i+ ": " +r.getDestino().getCodigo();
+                i++;
+            }
+            else
+            tostring += "\nDestino Final: " +r.getDestino().getCodigo();
+        }
+        tostring += "\nDuração total de voo: " + getDuracao();
+        return tostring;
     }
 
 
