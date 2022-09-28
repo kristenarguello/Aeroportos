@@ -1,6 +1,9 @@
 package pucrs.myflight.modelo;
 /** *
  * 
+ * Observação em relação aos commits do projeto inteiro: todas as vezes fizemos em um computador, realizando commits a partir de um 
+ * computador, mas pensamos e programamos juntas em todos os processos.
+ * 
  * Uma parte do código já existia na base para o exercício, fomos adicionando conforme os exercícios no pdf diziam para ser feito
  * e seguiamos as instruções de cada pdf. Aqui temos a classe da aeronave, com codigo, descricao, capacidade de pessoas e um contador
  * de quantas aeronaves criadas. Possui interfaces de imprimir, contar, e comparar a partir da aeronave. 
@@ -42,7 +45,7 @@ public class Aeronave implements Imprimivel, Contavel, Comparable<Aeronave>{
     public void contou() {
 		System.out.println("Aeronaves existentes: " + getContador());
 	}
-	
+
 	public void imprimir() {
 		System.out.println(codigo + " - " + descricao + " - capacidade: "+ capacidade);
 	}
