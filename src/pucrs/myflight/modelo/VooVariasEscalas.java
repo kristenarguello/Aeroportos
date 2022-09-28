@@ -5,7 +5,8 @@ package pucrs.myflight.modelo;
  * A classe voo varias escalas corresponde ao exercício de herança e sobrescrita de métodos.
  * A classe deriva de voo escalas com uma lista de rotas (escalas) e o método para adicionar escalas.
  * Essa classe esta toda comentada pois ela foi implementada quando a classe voo direto era a antiga
- * classe voo, da qual a classe voo escalas derivava.
+ * classe voo, da qual a classe voo escalas derivava. Está todo comentado pois no último exercício 
+ * é necessário apagar a classe, pra mesclar a VooEscalas.
  * 
  * @author Carol e Kristen
  * @version 1, 15, 22 e 27 de setembro

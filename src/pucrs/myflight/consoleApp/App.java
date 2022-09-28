@@ -2,12 +2,7 @@ package pucrs.myflight.consoleApp;
 import java.time.*;
 
 import pucrs.myflight.modelo.*;
-
-interface Contavel {
-	void contou();
-}
 public class App {
-
 	public static void main(String[] args) {
 		System.out.println("\nMyFlight project...");
 		
@@ -26,12 +21,10 @@ public class App {
 		//Voo voo_teste1 = new Voo(rota1, Duration.ofHours(4));
 		//Voo voo_teste2 = new Voo(rota1, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00), Duration.ofHours(4));
 		//funcionou - teste no debuger, nao ficou null
-
 		
 		//teste - ex2
 		System.out.println("Distancia entre Salgado Filho e Guarulhos com método de classe: " + Geo.distancia(local_poa,local_sp));
 		System.out.println("Distancia entre Salgado Filho e Guarulhos com método non-static: " + local_poa.distancia(local_sp));
-
 
 		//teste - ex3
 		System.out.println("Total de empresas áreas: " + CiaAerea.getTotalCias());
@@ -93,11 +86,10 @@ public class App {
 			//tratamento normal
 		//}
 
-		//27-09-2022 Carol e Kristen
 		Voo voodireto = new VooDireto(rota3, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00));
-		VooDireto direto = new VooDireto(rota4, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00));
+		//VooDireto direto = new VooDireto(rota4, LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00)); testamos se funcionava
 		VooEscalas escalas = new VooEscalas(LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00));
-		Voo vooescalas = new VooEscalas(LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00));
+		//Voo vooescalas = new VooEscalas(LocalDateTime.of(2018, Month.SEPTEMBER, 01, 12,00)); testamos se funcionava
 
 		System.out.println("DURAÇÃO ROTA 3: ");
 		System.out.println(voodireto.getDuracao());
@@ -112,16 +104,5 @@ public class App {
 		System.out.println(escalas.getDuracao());
 		System.out.println("VOO COM ESCALAS PRINTADO");
 		System.out.println(escalas);
-
-
-
-
-
-		
-
-
-		
-
-
 	}
 } 
